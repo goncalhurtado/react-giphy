@@ -1,0 +1,31 @@
+.cardContenedor {
+    width: 200px;
+    margin-left: 20px;
+
+    .cardCuerpo {
+        background-color: $secundario;
+        color: $blanco;
+
+        .cardCabeza {
+            .MuiCardHeader-subheader {
+                color: $gris;
+            }
+        }
+
+        .cardUsuario {
+            color: $gris;
+            height: 100%;
+        }
+
+        .MuiCardContent-root {
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .MuiCardMedia-root {
+            width: 100%;
+            height: 200px;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.historial {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+
+    &__items {
+        display: flex;
+        gap: 10px;
+        font-size: 1.6rem;
+    }
+
+    &__boton {
+        display: flex;
+        background-color: $principal;
+        margin-top: 5px;
+        padding: 10px;
+        border: 2px solid $secundario;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    &__boton:hover {
+        background-color: #facf23;
+    }
+}
