@@ -18,6 +18,9 @@ function App() {
       <div className="contenedorApp">
         <AddCategory setCategories={setCategories} />
         <Button
+          // sx={{
+          //   color: "red",
+          // }}
           onClick={() => setCategories([""])}
           variant="contained"
           color="error"
